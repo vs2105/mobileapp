@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height:1.5;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+	/*background-color:brown; */
+	background-image: linear-gradient(rgb(218, 51, 45, 0.5), rgb(218, 51, 45, 0.5)), url('../image/mobile-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 45px 0 65px;
+	overflow: hidden;
+}
+
+.hero-section .logo {
+	margin-bottom: 140px;
+}
+
+.hero-section .navbar ul {
+	padding-top: 15px;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.navbar ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	position: relative;
+}
+
+.navbar ul li a::after {
+	content: '';
+	width: 0%;
+	position: absolute;
+	height: 3px;
+	left: 0;
+	background-color: #ffffff;
+	bottom: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a:hover::after {
+	width: 100%;
+
+}
+
+.cta-info h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 52px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.cta-info p {
+	color: white;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.cta-info a {
+	background-color: #282828;
+	font-size: 17px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px 50px 15px 35px;
+	border-radius: 45px;
+	text-transform: uppercase;
+}
+
+.cta-info a i {
+	font-size: 45px;
+	vertical-align: middle;
+	margin-right: 25px;
+}
+
+.mob-img {
+	position: relative;
+}
+
+.mob-img img {
+	position: absolute;
+	right: 0;
+	top: -40px;
+}
+
+/*................................hero-section end.............*/
+
+
+.app-features {
+	padding: 85px 0 100px;
+}
+
+.heading-features h1 {
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.heading-features p {
+	font-size: 22px;
+	font-weight: 400;
+	color: #3a3a3a;
+	margin-bottom: 65px;
+}
+
+.features-info figure {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 40px;
+}
+
+.features-info figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.features-info h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1a1a1a;
+	margin-bottom: 45px;
+}
+
+.features-info p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+}
+
+
+/*.......................feature section end............................*/
+
+
+.fruit-cake {
+	padding: 190px 0 170px;
+	background-image: linear-gradient(rgb(120, 120, 120, 0.2), rgb(120, 120, 120, 0.2)), url('../image/joker-bg.jpg');
+	background-position: right;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fruit-cake h2 {
+	font-size: 52px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.fruit-cake p {
+	font-size: 24px;
+	color: #585858;
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+
+.fruit-cake a {
+	font-size: 15px;
+	color: white;
+	font-weight: 900;
+	border-radius: 400px;
+	text-transform: uppercase;
+	padding: 20px 25px;
+	background-color: #d9332d;
+	transition: all 0.5s ease-in-out;
+	border: 1px solid #d9332d;
+}
+
+.fruit-cake a:hover {
+	color: #d9332d;
+	background-color: #ffffff;
+	border: 1px solid #d9332d;
+}
+
+
+/*.......................fruit-cake section end............................*/
+
+.tfoot-section {
+	padding: 120px 0 150px;
+	background-color: #2e2e38;
+}
+
+.tfoot-section .footer-logo {
+	margin-bottom: 60px;
+}
+
+.footer-list h4 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+.footer-list ul li .box {
+	width: 55px;
+	height: 40px;
+	background-color: #d9332d;
+}
+
+.footer-list ul li {
+	width: 100%;
+	display: table;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.footer-list ul li div {
+	float: left;
+}
+
+.footer-list .fruitcake-info {
+	margin-left: 15px;
+	padding-top: 5px;
+}
+
+.footer-list .fruitcake-info p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+.suits-list ul li {
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 5px;
+}
+
+.suits-list ul .tweet-info {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.suits-list ul li P {
+	font-size: 11px;
+	padding-top: 10px;
+}
+
+.footer-list .about-info {
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	width: 75%;
+}
+
+footer {
+	padding: 40px;
+	background-color: #d7dedc;
+}
+
+.footer-info-section p,
+.social-icons {
+	display: inline-block;
+}
+
+.footer-info-section p {
+	font-size: 25px;
+	font-weight: 400;
+	color: #000000;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.footer-info-section p span {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.footer-info-section p a {
+	color: #000000;
+}
+
+.social-icons a {
+	width: 30px;
+	height: 30px;
+	color: #ffffff;
+	display: inline-block;
+	background-color: #4661a0;
+	padding: 8px;
+	margin-right: 25px;
+	border-radius: 2px;
+}
+
+.social-icons a i {
+	font-size: 18px;
+}
+
+.social-icons a:nth-child(2) {
+	background-color: red;
+}
+
+.social-icons a:nth-child(3) {
+	background-color: black;
+}
